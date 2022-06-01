@@ -1628,7 +1628,6 @@
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?ixigua\\.com",
             "rules": [
                 "wid_try",
-                "id",
                 "logTag"
             ]
         }
