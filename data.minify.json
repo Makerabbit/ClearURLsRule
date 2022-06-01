@@ -1624,11 +1624,17 @@
                 "p"
             ]
         },
-        "ixigua.com": {
+        "西瓜视频": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?ixigua\\.com",
             "rules": [
                 "wid_try",
                 "logTag"
+            ]
+        },
+        "微博":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?weibo\\.com",
+            "rules": [
+                "gid"
             ]
         }
     }
