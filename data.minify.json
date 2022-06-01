@@ -1624,17 +1624,10 @@
                 "p"
             ]
         },
-        /*"billiger.de": {
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?billiger\\.de",
-            "rules": [
-                "log",
-                "p"
-            ]
-        },*/
         "ixigua.com": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?ixigua\\.com",
             "rules": [
-                "?wid_try",
+                "wid_try",
                 "p"
             ]
         }
