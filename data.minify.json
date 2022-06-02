@@ -1636,6 +1636,12 @@
             "rules": [
                 "gid"
             ]
+        },
+        "sankakucomplex":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sankakucomplex\\.com\\/(?:[a-zA-Z0-9_-]+)\\/post\\/show",
+            "rules": [
+                "tags"
+            ]
         }
     }
 }
