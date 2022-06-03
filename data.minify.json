@@ -1642,6 +1642,15 @@
             "rules": [
                 "tags"
             ]
+        },
+        "什么值得买":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?smzdm\\.com\\/(?:[a-zA-Z0-9_-]+)\\/post\\/show",
+            "rules": [
+                "send_by",
+                "from",
+                "invite_code"
+
+            ]
         }
     }
 }
