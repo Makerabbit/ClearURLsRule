@@ -1648,8 +1648,8 @@
             "rules": [
                 "send_by",
                 "from",
-                "invite_code"
-
+                "invite_code",
+                "zdm_ss"
             ]
         }
     }
