@@ -1640,7 +1640,8 @@
         "sankakucomplex":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sankakucomplex\\.com\\/(?:[a-zA-Z0-9_-]+)\\/post\\/show",
             "rules": [
-                "tags"
+                "tags",
+                "parent_id"
             ]
         },
         "什么值得买":{
