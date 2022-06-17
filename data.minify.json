@@ -1654,7 +1654,7 @@
             ]
         },
         "百度百科":{
-            "urlPattern": "^https?:\\/\\/baike.baidu\\.com\\/item",
+            "urlPattern": "^https?:\\/\\/baike\\.baidu\\.com\\/item\\/",
             "rules": [
                 "fr"
             ]
