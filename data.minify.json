@@ -1652,6 +1652,12 @@
                 "invite_code",
                 "zdm_ss"
             ]
+        },
+        "百度百科":{
+            "urlPattern": "^https?:\\/\\/baike.baidu\\.com\\/item",
+            "rules": [
+                "fr"
+            ]
         }
     }
 }
