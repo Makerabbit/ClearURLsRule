@@ -1637,8 +1637,15 @@
                 "gid"
             ]
         },
-        "sankakucomplex":{
+        "sankakucomplex中文":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sankakucomplex\\.com\\/(?:[a-zA-Z0-9_-]+)\\/post\\/show",
+            "rules": [
+                "tags",
+                "parent_id"
+            ]
+        },
+        "sankakucomplex":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sankakucomplex\\.com\\/post\\/show",
             "rules": [
                 "tags",
                 "parent_id"
