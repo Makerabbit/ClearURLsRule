@@ -1665,6 +1665,12 @@
             "rules": [
                 "fr"
             ]
+        },
+        "JavBus":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?javbus\\.com",
+            "rules": [
+                "highlight"
+            ]
         }
     }
 }
