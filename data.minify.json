@@ -1684,7 +1684,22 @@
                 "enterid",
                 "sessionid",
                 "ascene",
-                "fasttmpl_type"
+                "fasttmpl_type",
+                "pass_ticket",
+                "exportkey",
+                "lang",
+                "nettype",
+                "version",
+                "devicetype",
+                "realreporttime",
+                "fasttmpl_flag",
+                "fasttmpl_fullversion",
+                "fasttmpl",
+                "ascene",
+                "sessionid",
+                "enterid",
+                "clicktime",
+                "subscene"
             ]
         }
     }
