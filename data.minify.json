@@ -1699,7 +1699,9 @@
                 "sessionid",
                 "enterid",
                 "clicktime",
-                "subscene"
+                "subscene",
+                "3D",
+                "%3D"
             ]
         }
     }
