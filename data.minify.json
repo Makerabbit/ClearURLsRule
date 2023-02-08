@@ -1701,7 +1701,7 @@
                 "clicktime",
                 "subscene",
                 "3D",
-                "%3D"
+                "\\%3D"
             ]
         }
     }
