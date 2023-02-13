@@ -1701,6 +1701,14 @@
                 "clicktime",
                 "subscene"
             ]
+        },
+        "百度百家号":{
+            "urlPattern": "^https?:\\/\\/baijiahao\\.baidu\\.com\\/",
+            "rules": [
+                "wfr",
+                "for",
+                "searchword"
+            ]
         }
     }
 }
