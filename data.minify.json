@@ -1701,7 +1701,8 @@
                 "sessionid",
                 "enterid",
                 "clicktime",
-                "subscene"
+                "subscene",
+                "xtrack"
             ]
         },
         "百度百家号":{
