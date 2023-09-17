@@ -1712,6 +1712,12 @@
                 "for",
                 "searchword"
             ]
+        },
+        "spankbang":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?spankbang\\.com\\/",
+            "rules": [
+                "video/"
+            ]
         }
     }
 }
