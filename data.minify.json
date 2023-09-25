@@ -1702,7 +1702,8 @@
                 "enterid",
                 "clicktime",
                 "subscene",
-                "xtrack"
+                "xtrack",
+                "source"
             ]
         },
         "百度百家号":{
