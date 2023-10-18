@@ -1728,6 +1728,12 @@
                 "shareUid",
                 "shareFrom"
             ]
+        },
+        "spankbang":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?spankbang\\.com\\/(?:[a-z0-9-])\\/video\\/",
+            "rules": [
+                "\\*"
+            ]
         }
     }
 }
