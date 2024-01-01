@@ -1715,12 +1715,6 @@
                 "searchword"
             ]
         },
-        "spankbang":{
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?spankbang\\.com\\/",
-            "rules": [
-                "video/"
-            ]
-        },
         "酷安":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?coolapk\\.com\\/",
             "rules": [
@@ -1733,7 +1727,8 @@
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?spankbang\\.com\\/(?:[a-z0-9-])\\/video\\/",
             "rules": [
                 "*",
-                "^(?:[a-z0-9-])"
+                "^(?:[a-z0-9-])",
+                "video/"
             ]
         }
     }
