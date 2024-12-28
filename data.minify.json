@@ -1715,7 +1715,7 @@
                 "searchword"
             ]
         },
-        "酷安":{
+        "酷 安":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?coolapk\\.com\\/",
             "rules": [
                 "shareKey",
