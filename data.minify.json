@@ -1660,12 +1660,6 @@
                 "zdm_ss"
             ]
         },
-        "百度百科":{
-            "urlPattern": "^https?:\\/\\/baike\\.baidu\\.com\\/item\\/",
-            "rules": [
-                "fr"
-            ]
-        },
         "JavBus":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?javbus\\.com",
             "rules": [
@@ -1715,6 +1709,12 @@
                 "searchword"
             ]
         },
+        "百度百科":{
+            "urlPattern": "^https?:\\/\\/baike\\.baidu\\.com\\/item\\/",
+            "rules": [
+                "fr"
+            ]
+        },
         "酷 安":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?coolapk\\.com\\/",
             "rules": [
@@ -1723,7 +1723,7 @@
                 "shareFrom"
             ]
         },
-        "spankbang":{
+        "Spankbang":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?spankbang\\.com\\/(?:[a-z0-9-])\\/video\\/",
             "rules": [
                 "*",
