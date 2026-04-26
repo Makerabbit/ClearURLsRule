@@ -1711,6 +1711,12 @@
                 "searchword"
             ]
         },
+        "百度贴吧":{
+            "urlPattern": "^https?:\\/\\/tieba\\.baidu\\.com\\/",
+            "rules": [
+                "fr"
+            ]
+        },
         "百度百科":{
             "urlPattern": "^https?:\\/\\/baike\\.baidu\\.com\\/item\\/",
             "rules": [
