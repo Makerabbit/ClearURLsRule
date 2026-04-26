@@ -1698,7 +1698,9 @@
                 "subscene",
                 "xtrack",
                 "source",
-                "scene"
+                "scene",
+                "cur_album_id",
+                "poc_token"
             ]
         },
         "百度百家号":{
@@ -1729,6 +1731,12 @@
                 "*",
                 "^(?:[a-z0-9-])",
                 "video/"
+            ]
+        },
+        "Pmvhaven":{
+            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pmvhaven\\.com\\/video\\/",
+            "rules": [
+                "from"
             ]
         }
     }
