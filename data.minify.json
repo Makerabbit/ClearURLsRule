@@ -1739,12 +1739,6 @@
                 "video/"
             ]
         },
-        "自定义-Pmvhaven":{
-            "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pmvhaven\\.com\\/video\\/",
-            "rules": [
-                "from"
-            ]
-        },
         "自定义-Pmvhaven2":{
             "urlPattern": "^https?:\\/\\/pmvhaven\\.com\\/video\\/",
             "rules": [
