@@ -1624,34 +1624,34 @@
                 "p"
             ]
         },
-        "西瓜视频": {
+        "自定义-西瓜视频": {
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?ixigua\\.com",
             "rules": [
                 "wid_try",
                 "logTag"
             ]
         },
-        "微博":{
+        "自定义-微博":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?weibo\\.com",
             "rules": [
                 "gid"
             ]
         },
-        "sankakucomplex中文":{
+        "自定义-sankakucomplex中文":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sankakucomplex\\.com\\/(?:[a-zA-Z0-9_-]+)\\/post\\/show",
             "rules": [
                 "tags",
                 "parent_id"
             ]
         },
-        "sankakucomplex":{
+        "自定义-sankakucomplex":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?sankakucomplex\\.com\\/post\\/show",
             "rules": [
                 "tags",
                 "parent_id"
             ]
         },
-        "什么值得买":{
+        "自定义-什么值得买":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?smzdm\\.com",
             "rules": [
                 "send_by",
@@ -1660,13 +1660,13 @@
                 "zdm_ss"
             ]
         },
-        "JavBus":{
+        "自定义-JavBus":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?javbus\\.com",
             "rules": [
                 "highlight"
             ]
         },
-        "微信公众号文章":{
+        "自定义-微信公众号文章":{
             "urlPattern": "^https?:\\/\\/mp\\.weixin\\.qq\\.com",
             "rules": [
                 "session_us",
@@ -1703,7 +1703,7 @@
                 "poc_token"
             ]
         },
-        "百度百家号":{
+        "自定义-百度百家号":{
             "urlPattern": "^https?:\\/\\/baijiahao\\.baidu\\.com\\/",
             "rules": [
                 "wfr",
@@ -1711,19 +1711,19 @@
                 "searchword"
             ]
         },
-        "百度贴吧":{
+        "自定义-百度贴吧":{
             "urlPattern": "^https?:\\/\\/tieba\\.baidu\\.com\\/",
             "rules": [
                 "fr"
             ]
         },
-        "百度百科":{
+        "自定义-百度百科":{
             "urlPattern": "^https?:\\/\\/baike\\.baidu\\.com\\/item\\/",
             "rules": [
                 "fr"
             ]
         },
-        "酷 安":{
+        "自定义-酷 安":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?coolapk\\.com\\/",
             "rules": [
                 "shareKey",
@@ -1731,7 +1731,7 @@
                 "shareFrom"
             ]
         },
-        "Spankbang":{
+        "自定义-Spankbang":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?spankbang\\.com\\/(?:[a-z0-9-])\\/video\\/",
             "rules": [
                 "*",
@@ -1739,8 +1739,14 @@
                 "video/"
             ]
         },
-        "Pmvhaven":{
+        "自定义-Pmvhaven":{
             "urlPattern": "^https?:\\/\\/(?:[a-z0-9-]+\\.)*?pmvhaven\\.com\\/video\\/",
+            "rules": [
+                "from"
+            ]
+        },
+        "自定义-Pmvhaven2":{
+            "urlPattern": "^https?:\\/\\/pmvhaven\\.com\\/video\\/",
             "rules": [
                 "from"
             ]
